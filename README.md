@@ -1,3 +1,5 @@
+![Beach](https://user-images.githubusercontent.com/82175847/116162807-26f97800-a714-11eb-92ff-fb6f34818ce3.jpg)
+
 ![Delete](https://user-images.githubusercontent.com/82175847/116162426-670c2b00-a713-11eb-9a75-bff7acefbb89.png)
 ![Code](https://user-images.githubusercontent.com/82175847/116162444-6ecbcf80-a713-11eb-89d1-d5ec3f751b12.jpg)
 ![feminine](https://user-images.githubusercontent.com/82175847/116162463-77bca100-a713-11eb-983e-41ad72f37a3f.png)
@@ -15,3 +17,6 @@
 # Greatminds
 
 ![wave (1)](https://user-images.githubusercontent.com/82175847/116162697-f74a7000-a713-11eb-80e9-f33f299eaaa7.png)
+![Form](https://user-images.githubusercontent.com/82175847/116164564-94f36e80-a717-11eb-8976-522e56161159.jpg)
+![facebook](https://user-images.githubusercontent.com/82175847/116164574-991f8c00-a717-11eb-8737-47ef8fe4a916.jpg)
+![twitter](https://user-images.githubusercontent.com/82175847/116164575-9b81e600-a717-11eb-8591-b2567688e1e2.jpg)
