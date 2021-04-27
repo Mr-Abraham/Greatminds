@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Minds</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Satisfy&display=swap" rel="stylesheet">
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family:'Monsterrat',sans-serif ;
+}
+body{
+    /* width: 100vw; */
+    height: 100vh;
+    line-height: 1.6;
+}
+
+.head {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://user-images.githubusercontent.com/82175847/116166019-b6a22500-a71a-11eb-8b2a-d3131a198275.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index:1000;
+
+    animation: image-change 35s ease-in-out infinite  alternate;
+
+    animation-delay: 10s;
+}
+
+
+@keyframes image-change{
+    0%{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://user-images.githubusercontent.com/82175847/116162494-87d48080-a713-11eb-8c33-a07d3f357ce4.jpg');
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+    }
+    50%{
+        background: url('https://user-images.githubusercontent.com/82175847/116162444-6ecbcf80-a713-11eb-89d1-d5ec3f751b12.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    70%{
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://user-images.githubusercontent.com/82175847/116162486-83a86300-a713-11eb-9f0f-db45326cafbe.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+    100%{
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://user-images.githubusercontent.com/82175847/116162807-26f97800-a714-11eb-92ff-fb6f34818ce3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+
+
+
+img {
+    max-width: 100% ;
+}
+
+.navigation img{
+    width: 90px;
+    border-radius: 50%;
+    
+}
+
+.navigation{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation-ul{
+    display: block;
+    position: relative;
+    z-index: 1000;
+}
+
+.navigation-ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.navigation-ul li a{
+    margin-right: 19px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #ff6361;
+    cursor: pointer;
+}
+.navigation-ul li a:hover{
+    color: #0fa265;
+}
+.navigation-ul .log-btn{
+     font-size: 1.4em;
+     /* border: 1px solid #fff; */
+     border-radius: 50px;
+     padding: 7px 15px;
+     background: #2ecc71;
+     color: #fff;
+}
+.navigation-ul .log-btn:hover{
+    color: black;
+}
+
+.container{
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .slogan h1{
+    position: relative;
+   color:#fff;
+   font-weight: 300;
+   font-size: 3.2em;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* bottom: 65px; */
+}
+
+.container .slogan p{
+    position: relative;
+    margin: 30px 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+    font-weight: 600px;
+    font-size: 2.5em;
+}
+.input{
+    box-sizing: border-box;
+    position: relative;
+    /* background: #fff; */
+}
+.input input[type="text"]{
+    outline: 0;
+    width: 390px;
+    height: 43px;
+    font-size: 1.2em;
+    border: 0;
+    padding: 0 5px;
+    border-radius: 150px;
+    text-align: center;
+}
+
+.input input[type="submit"]{
+    position: relative;
+    height: 45px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 150px;
+    background: #2ecc71;
+ outline: 0;   
+ cursor: pointer;
+    font-size: 1.2em;
+}
+
+.input input{
+    /* border-radius: 5px; */
+    box-shadow: 0 2px 10px #000;
+}
+
+section,
+.box{
+position: relative;
+box-sizing: border-box;
+margin:15px 0;
+}
+section{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    box-sizing: border-box;
+    height: 100%;
+    line-height: 1.7;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #ccc;
+    background: #FFF;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    transition: transform 290ms ease-in-out;
+}
+.box:hover{
+    transform: scale(1.02);
+}
+.box h3{
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+}
+
+.box a{
+    box-sizing: border-box;
+    position:relative;
+    text-decoration: none;
+    bottom: 5px;
+    color: black;
+    /* border: 1px solid black; */
+    padding: 8px 15px;
+    border-radius: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    background: #f05945;
+}
+.box p{
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+}
+
+.content{
+    width:100%;
+
+}
+.content1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+.content2{
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+.info{
+    
+    line-height: 1.6;
+    position: relative;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.info-image{
+    max-width: 500px;
+}
+.info h2{
+    color: #333;
+    position: relative;
+    top: 35px;
+    font-size: 2.7em;
+    font-weight: 400;
+    font-family:'Monsterrat',sans-serif ;
+}
+.info p{
+    position: relative;
+    top: 35px;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #333;
+    font-family:'Monsterrat',sans-serif;
+}
+.info a{
+    position: relative;
+    text-decoration: none;
+ font-size: 1.2em;   
+ background:#ff6361;
+ border-radius: 50px;
+ color:black;
+ width: 100px;
+ text-align: center;
+ padding: 5px 10px;
+ top: 55px;
+}
+.info a:hover{
+    background: black;
+    color: #fff;
+}
+
+.content{
+    background: url(/wave.svg);
+    background-size: cover;
+}
+.platform{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.platform-image{
+    max-width: 400px;
+}
+.platform-para{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+.platform-para::after{
+    content: '';
+    background: #ddd;
+    height: 1px;
+    width: 50%;
+    display: block;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    right: 0;
+    top: 20px;
+}
+.toggle{
+    display: none;
+}
+
+@media screen and (max-width:700px){
+    .navigation-ul{
+        display: none;
+    }
+    .navigation-ul li a{
+        padding:  0;
+    }
+    .container .slogan p{
+        font-size: 1.5em;
+    }
+    .container .slogan h1{
+        font-size: 1.8em;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.input input[type="text"]{
+    width: 300px;
+    margin: 5px 0;
+}
+.toggle{
+    display: block;
+}
+.navigation-ul .log-btn{
+    border-radius: 45px;
+    outline: none;
+    border: 0;
+    font-size: 1.5em;
+
+}
+.navigation-ul li{
+    padding: 5px 0;
+}
+
+}
+
+.box:first-child{
+    height: 415px;
+}
+.box:first-child a{
+    top: 10px;
+}
+
+
+.box a:hover{
+    background: black;
+    color: white;
+}
+
+/* making responsive for mobile  */
+.toggle{
+    background: #6eb5e7 url('https://user-images.githubusercontent.com/82175847/115298428-188ee780-a17b-11eb-8d7f-5db1084e62e7.png');
+    background-size: cover;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+position: fixed;
+top: 25px;
+right: 20px;
+z-index: 1001;
+}
+.toggle.active{
+    background: #0169b2 url('https://user-images.githubusercontent.com/82175847/116162426-670c2b00-a713-11eb-9a75-bff7acefbb89.png');
+z-index: 11111;
+background-size: cover;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+position: fixed;
+right: 10px;
+    
+}
+.navigation-ul.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+@media screen and (max-width:400px){
+    .platform-image{
+        height: 150px;
+        width: 230px;
+        margin: 10px 0;
+        z-index: -1;
+    }
+    .platform-para{
+        z-index: 1;
+    }
+    footer{
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    footer ul,
+    .about{
+        margin: 0 50px;
+    }
+
+    footer a{
+        display: block;
+    }
+
+    #span{
+        width: 250px;
+        font-size: 1em;
+    }
+    
+}
+.company{
+    width: 250px;
+    margin: 2px auto ;
+    border-radius: 50%;
+    transition: transform 350ms ease-in-out;
+}
+#greatMinds{
+    border: 1px solid grey;
+    width: 250px;
+
+}
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#company-para{
+    font-size: 2em;
+    text-align: center;
+    line-height: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 45px;
+    color: grey;
+    font-family: initial;
+    font-weight: 300px;
+}
+
+#company-para::after{
+    content: '';
+    background: #ddd;
+    height: 1px;
+    width: 50%;
+    display: block;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    right: 0;
+    top: 20px;
+}
+.company:hover{
+    transform: scale(1.1);
+}
+
+
+
+.left img{
+width: 500px;
+} 
+.login{
+    box-sizing: border-box;
+     margin: 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0  10px black;
+}
+.right-section{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.right-section input{
+       font-size: 1em;
+       border: none;
+       color: #333;
+       outline: 0;
+       border-bottom: 1px solid #333;
+       margin: 8px 0;
+       
+   }
+.right-section p{
+font-size: 1.2em;
+color:grey;
+font-weight: 300;
+}
+.right-section button{
+outline: none;
+letter-spacing: 2px;
+border: 0;
+font-weight: 400;
+background: #2ecc71;
+text-align: center;
+margin: 15px 0;
+width: 250px;
+font-size: 1.25em;
+border-radius: 50px;
+padding: 5px 15px;
+}
+.right-section h2{
+position: relative;
+font-size: 1.9em;
+color: #333;
+font-weight: 400;
+bottom: 10px;
+}
+.icons{
+    width: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 5px;
+    transition: transform 350ms ease-in-out;
+}
+.icons:hover{
+    transform: translateY(-10px);
+}
+
+.social{
+position: relative;
+left: -90px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.7);
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer h4{
+    border-bottom: 1px solid grey;
+    font-size: 1.2em;
+}
+footer a:hover{
+    text-decoration: underline;
+    
+}
+.about{
+    max-width: 450px;
+}
+</style>
+</head>
+<body>
+    <div class="head">
+
+        <div class="navigation">
+            <img src="https://user-images.githubusercontent.com/82175847/116165729-1c41e180-a71a-11eb-82f9-ef49096bec8e.png" alt="log">
+            
+            <div class="toggle"></div>    
+            <ul class="navigation-ul">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a id="love" href="" class="log-btn" id="log-in">Log In</a></li>
+            </ul>
+        </div>
+        
+        <div class="container">
+            <div class="slogan">
+                <h1>Great Projects are Developed By Great Ideas.</h1>
+                <p class="container-para">If you Believe you can Do it Then You Can do it.</p>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Enter Your Email">
+                <input type="submit" value="Subscribe">
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="box">
+            <img src="https://user-images.githubusercontent.com/82175847/116165410-71c9be80-a719-11eb-912b-3f27f5d93314.jpg" alt="Image">
+            <h3>
+             Business Analytics
+            </h3>
+            <p>
+Learn to be stable in finance market with finance expert.
+            </p>
+            <a href="">Learn Now</a>
+        </div>
+        <div class="box">
+            <img src="https://user-images.githubusercontent.com/82175847/116165385-65456600-a719-11eb-87c6-5a5dc755f7dd.jpg" alt="Image">
+            <h3>
+Graphic Design
+            </h3>
+            <p>
+Learn to Design very kee design with advanced technologies
+            </p>
+            <a href="">Learn Now</a>
+        </div>
+        <div class="box">
+            <img src="https://user-images.githubusercontent.com/82175847/116165320-3f1fc600-a719-11eb-8652-15e0a7e62485.jpg" alt="Image">
+            <h3>
+  Programming
+            </h3>
+            <p>
+Learn Programming Languages like Java, Python etc. with expert and highly experienced
+            </p>
+            <a href="">Learn Now</a>
+        </div>
+    </section>
+    <div class="content">
+        <div class="content1">
+            <img src="https://user-images.githubusercontent.com/82175847/116165385-65456600-a719-11eb-87c6-5a5dc755f7dd.jpg" class="info-image" alt="info-image">
+            <div class="info">
+                <h2>Graphic Designing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, rem voluptatum totam sed esse nam ratione incidunt non quis ut!</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="info">
+                <h2>Programming</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ex architecto earum, vitae totam ducimus iste praesentium ab atque animi?</p>
+                <a href="#">Read More</a>
+            </div>
+            <img src="https://user-images.githubusercontent.com/82175847/116165320-3f1fc600-a719-11eb-8652-15e0a7e62485.jpg" alt="info-image" class="info-image">
+            </div>
+            
+    </div>
+    <p class="platform-para">Social Platforms</p>
+    <div class="platform">
+        <img src="https://user-images.githubusercontent.com/82175847/116162474-7d19eb80-a713-11eb-8215-4391f8aa0acf.png" alt="Platform-image" class="platform-image">
+        <img src="https://user-images.githubusercontent.com/82175847/116162500-8c009e00-a713-11eb-8f41-a171dac6f3d2.png" alt="Platform-image" class="platform-image">
+        <img src="https://user-images.githubusercontent.com/82175847/116162502-8d31cb00-a713-11eb-9f07-baf82329067e.png" alt="Platform-image" class="platform-image">
+    </div>
+    <p id="company-para">Choices</p>
+    <div class="companies">
+        <img src="https://user-images.githubusercontent.com/82175847/116162465-78edce00-a713-11eb-9f50-c72d1012e9c6.png" alt="Image" class="company">
+        <img src="https://user-images.githubusercontent.com/82175847/116162463-77bca100-a713-11eb-983e-41ad72f37a3f.png" alt="Image" class="company">
+        <img src="https://user-images.githubusercontent.com/82175847/116162478-7ee3af00-a713-11eb-9db7-192f51232089.png" alt="Image" id="greatMinds" class="company">
+    </div>
+
+    <div class="login">
+        <div class="left">
+            <img id="form-image" src="https://user-images.githubusercontent.com/82175847/116166409-8eff8c80-a71b-11eb-931a-a49f9a7b84f6.jpg" alt="">
+        </div>
+
+        <div class="rigths">
+<div class="right-section">
+         <form>
+                <h2>Connect with us</h2>
+                <p id="span">Through simple steps join our community simply enter your Email and Mobile no Thank You!</p>
+                <p>
+          Name
+                </p>
+                <input type="text" placeholder="Enter Your name">
+                <p>Email Address</p>
+                <input type="email" name="" id="email" placeholder="Enter your email">
+                <p>Mobile No</p>
+                <input type="number" name="" placeholder="Enter your mobile no" id="mobile"><br>
+                <button type="submit">Join</button>
+                
+            </form>
+            <div class="social">
+                <img src="https://user-images.githubusercontent.com/82175847/115298106-a6b69e00-a17a-11eb-826f-7c765d7992cc.png" alt="" class="icons">
+                <img src="https://user-images.githubusercontent.com/82175847/115298086-9ef6f980-a17a-11eb-8cde-a136830e8403.png" alt="" class="icons">
+                <img src="https://user-images.githubusercontent.com/82175847/115298094-a3231700-a17a-11eb-958d-7fcbd264401b.png" alt="" class="icons">
+            </div>
+</div>
+        </div>
+    </div>
+    <footer>
+        <div class="about">
+            <h4>About</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officia necessitatibus quae quaerat, quis illum quisquam tempore maxime quo minima in nam explicabo nesciunt delectus deserunt, doloribus molestiae. Accusamus ducimus laudantium iste eligendi nobis doloribus. Quam, architecto incidunt.</p>
+        </div>
+        <ul>
+            <h4>Services</h4>
+            <li><a href="">Tutions</a></li>
+            <li><a href="">Laboratory</a></li>
+            <li><a href="">Schools</a></li>
+            <li><a href="">Online</a></li>
+        </ul>
+        <ul>
+            <h4>Team</h4>
+            
+            <li><a href="">Shivam Abrahm</a></li>
+            <li><a href="">Mr.Malware</a></li>
+            <li><a href="">Ms Juli Singh</a></li>
+            <li><a href="">David Berry</a></li>
+        </ul>
+        <ul>
+            <h4>Contact</h4>
+
+            <li><a  target="_blank"  href="mailto:cosingnerd84@gmail.com">Mail</a></li>
+            <li><a href="tel:8447377952">Call us</a></li>
+
+        </ul>
+        <ul>
+            <h4>Follow US</h4>
+
+            <li><a href="https://twitter.com/abraham_shivam">Twitter</a></li>
+            <li><a href="https://www.facebook.com/shivam.abraham/">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/shivam-kumar-06a5951b9/">Linkd In</a></li>
+            <li><a href="https://github.com/Mr-Abraham">Github</a></li>
+        </ul>
+    </footer>
+
+<script>
+    const toggle = document.querySelector('.toggle');
+    const navigation = document.querySelector('.navigation-ul');
+    toggle.onclick = function(){
+        toggle.classList.toggle('active');
+        navigation.classList.toggle('active')
+    }
+    let love = document.getElementById('love');
+     love.addEventListener('click',function(){
+         alert("I love you bachha")
+     })
+
+</script>
+
+</body>
+</html>
