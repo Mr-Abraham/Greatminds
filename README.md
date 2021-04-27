@@ -1,3 +1,4 @@
+![White with Aqua Brush Stroke Personal Logo](https://user-images.githubusercontent.com/82175847/116165729-1c41e180-a71a-11eb-82f9-ef49096bec8e.png)
 ![Beach](https://user-images.githubusercontent.com/82175847/116162807-26f97800-a714-11eb-92ff-fb6f34818ce3.jpg)
 
 ![Delete](https://user-images.githubusercontent.com/82175847/116162426-670c2b00-a713-11eb-9a75-bff7acefbb89.png)
