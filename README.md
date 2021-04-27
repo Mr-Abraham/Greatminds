@@ -35,6 +35,8 @@
 
 
 
+![Delete](https://user-images.githubusercontent.com/82175847/116165847-5dd28c80-a71a-11eb-9846-c41afc792852.png)
+![Menu](https://user-images.githubusercontent.com/82175847/116165854-6034e680-a71a-11eb-8dec-6cf228b65981.png)
 
 
 
